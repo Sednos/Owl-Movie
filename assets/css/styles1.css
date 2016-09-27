@@ -1,0 +1,1471 @@
+/* GENERAL */
+
+* {
+	margin:0;
+	padding:0;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+
+#Container {
+	margin: 0 auto;
+}
+
+h1 {
+    font-size:30px;
+	font-weight:300;
+	margin-bottom:22px;
+}
+
+h2 {
+	font-size:26px;
+	font-weight:300;
+	padding:40px 0;
+	text-align:center;
+    color: #696969;
+}
+
+h3 {
+	font-size:19px;
+	font-weight:300;
+	padding:10px 0 40px 0;
+	text-align:center;
+    color: #696969;
+}
+
+.Wrapper960px {
+	width:960px;
+	margin: 0 auto;
+}
+
+
+												/* PAGE ACCUEIL NON CONNECTEE */
+
+/* MENU */
+
+.Bandeau {
+}
+
+#MainHeader {
+	height: 80px;
+    z-index: 9;
+    width: 100%;
+	background-color:#fff;
+	border-bottom:#000 solid 1px;
+	/*position:fixed;*/
+}
+
+#MainHeader a {
+	text-decoration:none;
+	height:70px;
+	display:inline-block;
+	font-size:13px;
+	line-height:99px;
+	color:black;
+	text-transform:uppercase;
+}
+
+#MainHeader a.MainLogo {
+	display:inline-block;
+	margin-left:20px;
+	margin-top:11px;
+}
+
+#MainHeader ul {
+	list-style:none;
+	display:inline-block;
+	vertical-align:top;
+}
+
+ul#MainMenuLinks {
+	margin-left:20px;
+}
+
+ul#LoginLinks {
+	position:absolute;
+	z-index:2;
+	top:0;
+	right:15px;
+}
+
+#MainHeader li {
+	display:inline-block;
+	margin-left:20px;
+}
+
+#MainHeader li:first-child {
+	margin-left:0;
+}
+
+#MainHeader li a {
+	color:#000;
+}
+
+#MainHeader li.PageActive a, #MainHeader li:hover a {
+	border-bottom:#000 solid 2px;
+}
+
+
+
+/* VIDEO */
+
+.BlocVideo {
+	height:500px;
+	overflow:hidden;
+	position:relative;
+}
+
+.BlocVideo video {
+	width:100%;
+}
+
+#ContaintBandeau {
+	position:absolute;
+	top:110px;
+	left:0;
+	width:100%;
+	background-color: black;
+}
+
+#TextDansVideo {
+	margin-top:36px;
+    margin-bottom:20px;
+	text-align:center;
+	color:#ffffff;
+	text-align:center;
+}
+
+#ContaintBandeau p.IntroDescription {
+    font-size:18px;
+	font-weight:300;
+}
+
+#ContaintBandeau a.BtnInscription {
+    font-size: 17px;
+    color:#fff;
+    background-color: #a3394f;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+#ContaintBandeau a.BtnInscription:hover {
+	text-decoration:none;
+	background-color:rgba(0,0,0,0.56);
+	background-color:#7b2d3d;
+	color:#fff;
+}
+
+
+
+/* EXPLICATIONS */
+
+div#SectionExplications {
+	height:484px;
+}
+
+div#SectionExplications ul {
+	list-style:none;
+	font-size:0;
+}
+
+div#SectionExplications ul li {
+	display:inline-block;
+	width:20%;
+	vertical-align:top;
+	text-align:center;
+}
+
+div#SectionExplications ul li span.NumExplication {
+	display:inline-block;
+	width:140px;
+	height:140px;
+	line-height:140px;
+	box-sizing:border-box;
+	font-size:80px;
+	border-radius:100px;
+	border:2px solid #000;
+	margin-bottom:40px;
+	font-weight:300;
+}
+
+div#SectionExplications ul li p {
+	color:#696969;
+	font-size:14px;
+	text-align:center;
+	line-height:19px;
+	margin-bottom: 22px;
+}
+
+#SectionExplications .BtnStyle {
+	margin-right: 140px;
+    margin-left: 100px;
+}
+
+.BtnStyle {
+	border-radius:10px;
+	padding:10px 15px;
+	float:right;
+	margin:15px 0;
+	text-decoration:none;
+}
+
+.BtnColor1 {
+	background-color:#a3394f;
+	color:#FFF;
+	font-size: 15px;
+}
+
+.BtnColor1:hover {
+	background-color:#7b2d3d;
+}
+
+
+
+/* SEANCES PRO */
+
+#SectionSeancesPro {
+	background-color:#f2f2f2;
+	width:100%;
+	height:644px;
+}
+
+div#SectionSeances {
+	background-color:#f2f2f2;
+	padding-bottom:20px;
+}
+
+div#SectionSeances:after {
+	content:"";
+	clear:both;
+	display:block;
+}
+
+.filmSeanceWrapper {
+	width:21%;
+	margin:0 2%;
+	text-align:center;
+	float:left;
+}
+
+.filmSeanceSsWrapper {
+	background-color:#FFF;
+	border:1px solid #c9c9c9;
+	position:relative;
+	box-sizing:border-box;
+}
+
+.filmSeanceSsWrapper:after {
+	content:"";
+	clear:both;
+	display:block;
+}
+
+.filmSeanceWrapper .miniBtnRS {
+	position:absolute;
+	right:6px;
+	top:6px;
+}
+
+.filmSeanceWrapper .miniBtnRS a:hover {opacity:0.6;}
+
+h4.movieTitle {
+	text-align:center;
+	font-size:15px;
+	font-weight:normal;
+	color:#696969;
+	margin:25px 0 10px;
+	height:40px;
+	display:table;
+	width:100%;
+}
+
+h4.movieTitle span {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.moviePosterWrapper {
+	width:80%;
+	margin:0 auto;
+	height:160px;
+	overflow:hidden;
+}
+
+.moviePosterWrapper img {
+	width:100%;
+}
+
+.txReservations {
+	display:inline-block;
+	width:50px;
+	height:50px;
+	line-height:50px;
+	border-radius:50px;
+	border:1px solid #cdcdcd;
+	margin: -25px auto 10px ;
+	overflow:hidden;
+	color:#ff8100;
+	font-size:16px;
+	font-weight:bold;
+	background-color:#FFF;
+}
+
+.txReservations:after {
+	content:"%";
+	font-size:0.7em;
+	font-weight:normal;
+}
+
+.filmSeanceWrapper p {
+	color:#979797;
+	font-size:14px;
+}
+
+.nbRemainingWrapper {
+	width:50%;
+	height:95px;
+	border-top:1px solid #c7c7c7;
+	box-sizing:border-box;
+	text-align:center;
+	float:left;
+	color:#979797;
+	font-size:14px;
+	margin-top:20px;
+}
+
+.nbRemainingWrapper + .nbRemainingWrapper {
+	border-left:1px solid #f2f2f2;
+}
+
+.nbRemainingWrapper strong {
+	font-size:15px;
+	margin-bottom:5px;
+	display:block;
+	color:#696969;
+	font-weight:normal;
+	margin-top:10px;
+	letter-spacing:0.4px;
+}
+.nbRemainingWrapper .nbRemaining {
+	color:#ff8100;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.filmSeanceWrapper a.BtnStyle {
+	margin-top:-20px;
+	float:none;
+	margin:0 auto;
+	display:inline-block;
+	position:relative;
+	margin:-20px auto 0;
+	overflow:hidden;
+}
+
+.BtnColor6 {
+	background-color:#ff8100;
+	color:#FFF;
+	font-size:15px;
+}
+
+.BtnColor6:hover {
+	background-color:#f68c26;
+}
+
+
+
+/* EVENEMENT PRO */
+
+#PhotoEvenementPro {
+	width:40%;
+	display:inline-block;
+	padding-right: 30px;
+	padding-bottom:40px;
+}
+
+#TexteEvenementPro {
+	width:56%;
+	display:inline-block;
+	float:right;
+	line-height: 19px;
+}
+
+.TitreEvenementPro {
+	font-size: 17px;
+    font-weight: 300;
+    color: #696969;
+	margin-bottom:20px;
+}
+
+.DescriptionEvenementPro {
+	font-size:14px;
+	font-weight:400;
+	color:#696969;
+}
+
+.BtnColor7 {
+	background-color:#5f3e2a;
+	color:#FFF;
+	font-size: 15px;
+	margin-right: 92px;
+	margin-top:32px;
+	margin-bottom:40px;
+}
+
+.BtnColor7:hover {
+	background-color:#a6795a;
+}
+
+
+
+/* LES PLUS DEMANDES */
+
+#SectionPlusDemandes {
+	background-color:#f2f2f2;
+	width:100%;
+	height:675px;
+}
+
+div#SectionSeances {
+	background-color:#f2f2f2;
+	padding-bottom:20px;
+}
+div#SectionSeances:after {
+	content:"";
+	clear:both;
+	display:block;
+}
+
+.filmSeanceWrapper {
+	width:21%;
+	margin:0 2%;
+	text-align:center;
+	float:left;
+}
+.filmSeanceSsWrapper {
+	background-color:#FFF;
+	border:1px solid #c9c9c9;
+	position:relative;
+	box-sizing:border-box;
+}
+
+.filmSeanceSsWrapper:after {
+	content:"";
+	clear:both;
+	display:block;
+}
+
+.filmSeanceWrapper .miniBtnRS {
+	position:absolute;
+	right:6px;
+	top:6px;
+}
+.filmSeanceWrapper .miniBtnRS a:hover {opacity:0.6;}
+
+h4.movieTitle {
+	text-align:center;
+	font-size:15px;
+	font-weight:normal;
+	color:#696969;
+	margin:25px 0 10px;
+	height:40px;
+	display:table;
+	width:100%;
+}
+
+h4.movieTitle span {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.moviePosterWrapper {
+	width:80%;
+	margin:0 auto;
+	height:160px;
+	overflow:hidden;
+}
+
+.moviePosterWrapper img {
+	width:100%;
+}
+
+.txReservationsplus {
+	display:inline-block;
+	width:50px;
+	height:50px;
+	line-height:50px;
+	border-radius:50px;
+	border:1px solid #cdcdcd;
+	margin: -25px auto 10px ;
+	overflow:hidden;
+	color:#ffca46;
+	font-size:16px;
+	font-weight:bold;
+	background-color:#FFF;
+}
+
+.txReservationsplus:after {
+	content:"%";
+	font-size:0.7em;
+	font-weight:normal;
+}
+
+.filmSeanceWrapper p {
+	color:#979797;
+	font-size:14px;
+}
+
+.nbRemainingWrapper {
+	width:50%;
+	height:95px;
+	border-top:1px solid #c7c7c7;
+	box-sizing:border-box;
+	text-align:center;
+	float:left;
+	color:#979797;
+	font-size:14px;
+	margin-top:20px;
+}
+
+.nbRemainingWrapper + .nbRemainingWrapper {
+	border-left:1px solid #f2f2f2;
+}
+
+.nbRemainingWrapper strong {
+	font-size:15px;
+	margin-bottom:5px;
+	display:block;
+	color:#696969;
+	font-weight:normal;
+	margin-top:10px;
+	letter-spacing:0.4px;
+}
+.nbRemainingWrapper .nbRemainingplus {
+	color:#ffca46;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.filmSeanceWrapper a.BtnStyle {
+	margin-top:-20px;
+	float:none;
+	margin:0 auto;
+	display:inline-block;
+	position:relative;
+	margin:-20px auto 0;
+	overflow:hidden;
+}
+
+.BtnColor11 {
+	background-color:#ffca46;
+	color:#FFF;
+	font-size:15px;
+}
+
+.BtnColor11:hover {
+	background-color:#fcd77c;
+}
+
+h2.SectionPlusDemandes {
+	font-size:26px;
+	font-weight:300;
+	text-align:center;
+    color: #696969;
+	padding: 40px 0 0 0;
+}
+
+
+
+/* CHERCHER FILM */
+
+#SectionSearch {
+	background-color:#fff;
+	width:100%;
+}
+
+h2.SectionSearch {
+	font-size:26px;
+	font-weight:300;
+	text-align:center;
+    color: #696969;
+	padding: 40px 0 0 0;
+}
+
+#SearchFilm {
+	margin-left: auto;
+	margin-right: auto;
+	width: 630px;
+	text-align:center;
+}
+
+#InputSearch {
+	width: 550px;
+	height: 45px;
+	padding-left:5px;
+	box-sizing:border-box;
+}
+
+::-webkit-input-placeholder {
+	font-size:14px;
+	font-family:roboto;
+	padding-left:14px;
+	font-weight:300;
+}
+
+#BtnOK {
+	background-color: #a6795a;
+    color: #ffffff;
+    border: none;
+    padding: 14px 14px;
+    font-size: 14px;
+    border-radius: 10px;
+    text-decoration: none;
+	margin-bottom:40px;
+}
+
+#BtnOK:hover {
+	background-color:#5f3e2a;
+	color:#ffffff;
+}
+
+
+
+/* FOOTER */
+
+#Footer {
+	background-color:#000;
+	margin: 0 auto;
+	padding-bottom:30px;
+}
+#Footer:after {
+	content:"";
+	clear:both;
+	display:block;
+}
+
+#Footer h3 {
+	font-size:19px;
+	font-weight:300;
+	text-align:center;
+    color: #fff;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.InscriptionFooter {
+	color: #000;
+	text-align: center;
+	background-color: #fff;
+	padding: 10px;
+	font-weight: 400;
+	text-decoration:none;
+	border-radius:10px;
+}
+
+.InscriptionFooter:hover {
+	color: #fff;
+	background-color:#000;
+	border:#fff solid 1px;
+}
+
+#Footer p {
+	text-align: center;
+	margin-bottom: 11px;
+	color:#fff;
+	font-size:300;
+	text-decoration:none;
+}
+
+#BtnUp {
+	cursor: pointer;
+    width: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 11px;
+    margin-bottom: 20px;
+}
+
+#Footer .BlocFooter {
+	float: left;
+    padding: 40px 0 0 80px;
+    width: 250px;
+	text-align:left;
+}
+
+#Footer .BlocFooter p {
+	font-size:14px;
+	color:#fff;
+	padding-bottom:10px;
+	font-weight:300;
+}
+
+#Footer .BlocFooter a {
+	font-size:14px;
+	color:#fff;
+	text-decoration:none;
+	display:block;
+	margin-bottom:20px;
+	font-weight:300;
+}
+
+#Footer .LastBlocFooter {
+	float: left;
+    padding: 40px 0 0 40px;
+    width: 400px;
+	text-align:left;
+	margin-left: 60px;
+}
+
+#Footer .LastBlocFooter p {
+	font-size:15px;
+	color:#fff;
+	font-weight:300;
+	text-align:left;
+
+}
+
+#NewsLetter {
+    padding: 0px;
+    display: inline-block;
+	margin-bottom:20px;
+}
+
+#Footer input {
+    width: 213px;
+    height: 33px;
+    border: none;
+	box-sizing:border-box;
+	padding-left:5px;
+}
+
+#Footer button {
+    border: none;
+    background-color: #fff;
+	text-align:center;
+    height: 33px;
+    line-height: 33px;
+	font-size: 11px;
+	font-weight:bold;
+	box-sizing:border-box;
+	vertical-align:top;
+	padding:0 10px;
+}
+
+#Footer button:hover{
+	cursor:pointer;
+}
+
+#Footer button:hover {
+	color: #fff;
+	background-color:#a3394f;
+}
+
+#ReseauxSociaux {
+	display:inline-block;
+	margin-bottom:20px;
+}
+
+#ReseauxSociaux a {
+	margin-right:15px;
+}
+
+#BlocsFooter {
+	margin: auto;
+	padding:auto;
+}
+
+.Connexion {
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 30px;
+	text-decoration:none;
+}
+
+.hamburger {
+	display: none;
+}
+
+
+
+/* RESPONSIVE */
+/*
+@media screen and (max-width: 1024px) and (min-width:768px) {
+
+	#MainHeader {
+		width: 100%;
+		height: auto;
+	}
+
+	#MainHeader a.MainLogo {
+		margin-left: 50%;
+		margin-bottom: 0;
+		transform: translateX(-50%);
+	}
+
+	ul#MainMenuLinks {
+		text-align: center;
+	}
+
+	ul#LoginLinks {
+		float: none;
+		margin-left: 20px;
+	}
+
+	#MainHeader li {
+		margin-left: 15px;
+
+		margin: -20px 0 0 15px;
+	}
+
+	.Wrapper960px {
+		width: 100%;
+	}
+
+	div#SectionExplications {
+		padding: 10px;
+	}
+
+	#TexteEvenementPro {
+		width: 48%;
+		line-height: 16px;
+	}
+
+	.DescriptionEvenementPro {
+		font-size: 12px;
+	}
+	
+	.BlocVideo {
+		background-image:url(../../OwlMovies%20plus%20ou%20moins%20responsive%202/IMG/PhotoSeancePlus2.jpg);
+		background-repeat:no-repeat;
+	}
+
+}
+
+@media screen and (max-width: 767px) and (min-width:400px) {
+
+	#MainHeader {
+		width: 100%;
+		height: auto;
+		position: fixed;
+		z-index: 2;
+	}
+
+	#MainHeader a.MainLogo {
+		margin-left: 50%;
+		margin-bottom: 0;
+		transform: translateX(-50%);
+		display: none;
+	}
+
+	ul#MainMenuLinks {
+		text-align: center;
+		display: none;
+	}
+
+
+	ul#LoginLinks {
+		float: none;
+		margin-left: 70px;
+	}
+
+	#MainHeader li {
+		margin-left: 15px;
+
+		margin: -20px 0 0 15px;
+	}
+
+	.Wrapper960px {
+		width: 100%;
+	}
+
+	div#SectionExplications {
+		padding: 10px;
+	}
+
+	#TexteEvenementPro {
+		width: 48%;
+		line-height: 16px;
+
+	}
+
+	#hamburger {
+		display: block;
+		z-index: 99;
+	}
+
+	.DescriptionEvenementPro {
+		font-size: 12px;
+
+	}
+
+	#SearchFilm {
+		width: 100%;
+	}
+
+	#InputSearch {
+		width: 70%;
+
+	}
+
+	h1 {
+		font-size: 20px;
+	}
+
+	#TextDansVideo {
+		margin-top:0px;
+	  margin-bottom:0px;
+		text-align:center;
+		color:#ffffff;
+		text-align:center;
+	}
+
+	.BlocVideo {
+		height:auto;
+		position:relative;
+		overflow: hidden;
+	}
+
+	div#SectionExplications {
+		height: auto;
+	}
+
+	div#SectionExplications ul {
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	div#SectionExplications ul li {
+		display:block;
+		width:90%;
+		vertical-align:top;
+		text-align:center;
+		margin: 0 auto;
+	}
+
+	div#SectionExplications ul li span.NumExplication {
+		display:inline-block;
+		width:100px;
+		height:100px;
+		line-height:100px;
+		box-sizing:border-box;
+		font-size:50px;
+		border-radius:100px;
+		border:2px solid #000;
+		margin-bottom:10px;
+		font-weight:300;
+	}
+
+	div#SectionExplications ul li p {
+		color:#696969;
+		font-size:14px;
+		text-align:center;
+		line-height:19px;
+	}
+
+	.hide {
+		display: none;
+	}
+
+	.filmSeanceWrapper {
+		width:40%;
+		margin:0 2%;
+		text-align:center;
+		float:left;
+		margin: 0 5%;
+	}
+
+	#SectionPlusDemandes {
+		height: 1200px;
+	}
+
+	#SectionEvenementPro {
+		width: 100%;
+		height: auto;
+	}
+
+	#PhotoEvenementPro {
+		width: 50%;
+	}
+
+	#PhotoEvenementPro img {
+		width: 100%;
+		height: 100%;
+	}
+
+	#TexteEvenementPro {
+		width: 50%;
+		height: 150px;
+		line-height: 15px;
+		overflow-y: scroll;
+
+	}
+
+	footer {
+		width: 100%;
+	}
+
+	#ReseauxSociaux {
+		width: 165px;
+	}
+
+	#Footer .BlocFooter {
+		float: none;
+		margin: 0 auto;
+	}
+
+	#Footer .BlocFooter p {
+		text-align:center;
+	}
+
+	#Footer .LastBlocFooter p {
+		text-align: center;
+	}
+
+}
+
+*/
+
+
+
+
+												/* PAGE INSCRIPTION */
+												
+												
+#inscriptionContainer {
+	height:100vh;
+	background-color: #f2f2f2;
+
+}
+												
+#formulaireInscription {
+	text-align:center;
+	margin-bottom:40px;
+	background-color: #f2f2f2;
+}
+
+#Formulaire {
+	width:45%;
+    display:inline-block;
+    padding-top:20px;
+}
+           
+#Formulaire p {
+	padding-bottom: 4px;
+}
+
+.ou {
+	color: #696969;
+	font-size:18px;
+	margin-top: 20px;
+	font-weight: 300;
+}		      
+		   
+#InputNom,
+#InputPrenom,
+#InputMail,
+#InputTel,
+#InputMDP {
+	background-color:#fff;
+	border:none;
+	height:40px;
+	width:100%;
+	margin-bottom:20px;
+	border-radius:10px;
+}
+
+#BtnInscription {
+	background-color: #000;
+	color: #fff;
+	border-radius: 10px;
+	outline: none;
+	text-decoration: none;
+	padding: 10px 30px;
+	border: none;
+	font-size: 16px;
+	font-weight: 300;
+	
+}
+
+#inscriptionContainer .Connexion {
+	color: #000;
+	margin-bottom: 40px;
+}
+
+#formulaireInscription h2{
+	font-size:26px;
+	font-weight:300;
+	padding:40px 0 0 20px;
+	text-align:center;
+    color: #696969;
+}
+
+#boutonFacebook {
+	width:100%;
+}
+
+#boutonFacebook a {
+	text-decoration: none;
+	color: #fff;
+	background-color:#1e508c;
+	padding: 15px;
+	border-radius:10px;
+	font-weight:lighter;
+	
+}
+
+#boutonFacebook img {
+	margin-right:25px;
+	vertical-align:middle;
+}
+
+
+
+ 
+
+
+												/* PAGE CONNEXION */
+												
+												
+												
+												
+#connexionContainer {
+	height:100vh;
+	background-color: #f2f2f2;
+}
+												
+#formulaireConnexion {
+	text-align:center;
+	margin-bottom:40px;
+	background-color: #f2f2f2;
+}
+
+#Formulaire {
+	width:45%;
+    display:inline-block;
+    padding-top:20px;
+}
+           
+#Formulaire p {
+	padding-bottom: 4px;
+}
+
+.ou {
+	color: #696969;
+	font-size:18px;
+	margin-top: 20px;
+	font-weight: 300;
+}		      
+		   
+#InputNom,
+#InputPrenom,
+#InputMail,
+#InputTel,
+#InputMDP {
+	background-color:#fff;
+	border:none;
+	height:40px;
+	width:100%;
+	margin-bottom:20px;
+	border-radius:10px;
+}
+
+#BtnInscription {
+	background-color: #000;
+	color: #fff;
+	border-radius: 10px;
+	outline: none;
+	text-decoration: none;
+	padding: 10px 30px;
+	border: none;
+	font-size: 16px;
+	font-weight: 300;
+	
+}
+
+#connexionContainer .Connexion {
+	color: #000;
+	margin-bottom: 40px;
+}
+
+#formulaireInscription h2{
+	font-size:26px;
+	font-weight:300;
+	padding:40px 0 0 20px;
+	text-align:center;
+    color: #696969;
+}
+
+#boutonFacebook {
+	width:100%;
+}
+
+#boutonFacebook a {
+	text-decoration: none;
+	color: #fff;
+	background-color:#1e508c;
+	padding: 15px;
+	border-radius:10px;
+	font-weight:lighter;
+	
+}
+
+#boutonFacebook img {
+	margin-right:25px;
+	vertical-align:middle;
+}	
+
+
+
+
+
+
+/* ACHAT */
+
+#achatContainer {
+	height:100vh;
+	background-color: #f2f2f2;
+}
+
+.achatFilm {
+	margin-top:80px;
+	margin-left: 335px;
+	width:110%;
+}
+
+.achatFilm .BtnStyle .BtnColor6 {
+	margin-left:100px;
+}
+
+.nbePlace {
+	margin-top: 156px;
+}
+
+.nbePlace p {
+	font-size:20px;
+	color: #696969;
+	font-weight: 300;
+	float:left;
+}
+
+input[type="number"] {
+	width:4%;
+    height: 30px;
+    margin-left: 30px;
+    float:left;
+}
+
+.Total { 
+    margin-top: 50px;
+    padding-right: 402px;
+    float: left;
+}
+
+.Total p { 
+	font-size:25px;
+	color:#696969;
+	font-weight:300;
+}
+
+.Total span { 
+    font-weight: 400;
+    margin-left: 115px;
+}
+
+.btnAcheter { 
+	margin-right: 464px;
+	margin-top: 304px;
+	margin-bottom: 634px;
+}
+
+
+											/* PAGE PREFERENCE */
+
+
+	#preferenceContainer {
+		height:100vh;
+		background-color: #f2f2f2;
+	}
+
+	#formulairePreferenceContainer {
+		text-align:center;
+		margin-bottom:40px;
+		background-color: #f2f2f2;
+	}
+
+	#FormulairePreference {
+		width:45%;
+		display:inline-block;
+		padding-top:20px;
+	}
+
+.raccourci {
+	width: 50%!important;
+	text-align: left;
+}
+
+.InputVerif {
+	width: 45%;
+	margin-left: 15px;
+	background-color: transparent;
+	color: #696969;
+	border-radius: 10px;
+	outline: none;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 1px solid #696969;
+	font-size: 16px;
+	font-weight: 300;
+	cursor: pointer;
+}
+
+.InputVerif:hover {
+	background-color:#e6e6e6;
+}
+
+#InputOldMDP {
+	background-color:#fff;
+	border:none;
+	height:40px;
+	width:100%;
+	margin-bottom:20px;
+	border-radius:10px;
+}
+
+.InputNewMDP {
+	background-color:#fff;
+	border:none;
+	height:40px;
+	width:100%;
+	margin-bottom:20px;
+	border-radius:10px;
+}
+
+label h3 {
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+
+#BtnModifMDP {
+	background-color: #a3394f;
+    color: #fff;
+    border-radius: 10px;
+    outline: none;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#BtnModifMDP:hover {
+	background-color: #7b2d3d;
+}	
+
+/* PAGE PAIMENT */
+
+#paiementContainer {
+	height:100vh;
+	background-color: #f2f2f2;
+}
+
+#formulaireCB {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+#formulaireCB img {
+	vertical-align: middle;
+	margin: 0 90px 0 5px;
+}
+
+#formulairePaiement {
+	width: 25%;
+	height: 300px;
+}
+
+
+#formulairePaiement h6 {
+	color: #474747;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+#formulairePaiement p {
+	float: right;
+	font-size: 10px;
+	color: #000;
+	font-weight: 300;
+}
+
+#formulairePaiement label {
+	font-weight: 300;
+	font-size: 18px;
+	color: #474747;
+	margin-bottom: 10px;
+
+}
+
+#formulairePaiement input {
+	float: right;
+	border: none;
+	height: 25px;
+	padding: 5px;
+	border-radius: 7px;
+	outline: none;
+}
+
+#formulairePaiement div {
+	margin-bottom: 20px;
+}
+
+#formulairePaiement div .validite {
+	margin-bottom: 20px;
+	margin-left:20px;
+}
+
+#cvc {
+	width: 60px;
+	margin-right: 75px;
+}
+
+input[type=checkbox] { 
+	margin-right: 230px;
+}
+
+#formulairePaiement span {
+	font-size: 10px;
+    color: #696969;
+    float: right;
+    margin-top: -17px;
+    margin-left: 19px;
+}
+
+input[type=month] { 
+	width: 56%;
+}
+
+.montant {
+	font-size:25px;
+	color:#696969;
+	font-weight:300;
+}
+
+.montant span {
+	margin-left:30px;
+	font-weight:400;
+}
+
+.montantTotal { 
+	margin-left:377px;
+	margin-bottom:80px;
+}
+
+.boutonPaiement .BtnStyle {
+	margin-top: -113px;
+    margin-right: 88px;
+}

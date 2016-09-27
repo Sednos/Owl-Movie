@@ -1,0 +1,244 @@
+/* RESPONSIVE */
+
+@media screen and (max-width: 1024px) and (min-width:768px) {
+
+	#MainHeader {
+		width: 100%;
+		height: auto;
+	}
+
+	#MainHeader a.MainLogo {
+		margin-left: 50%;
+		margin-bottom: 0;
+		transform: translateX(-50%);
+	}
+
+	ul#MainMenuLinks {
+		text-align: center;
+	}
+
+	ul#LoginLinks {
+		float: none;
+		margin-left: 20px;
+	}
+
+	#MainHeader li {
+		margin-left: 15px;
+		margin: -20px 0 0 15px;
+	}
+	
+	#wrapperBgVideo {
+		display:none;
+	}
+	
+	#wrapperBgImg {
+		display:block;
+	}
+
+	.Wrapper960px {
+		width: 100%;
+	}
+
+	div#SectionExplications {
+		padding: 10px;
+	}
+
+	#TexteEvenementPro {
+		width: 48%;
+		line-height: 16px;
+	}
+
+	.DescriptionEvenementPro {
+		font-size: 12px;
+	}
+	
+	.BlocVideo {
+		background-image:url(../../OwlMovies%20plus%20ou%20moins%20responsive%202/IMG/PhotoSeancePlus2.jpg);
+		background-repeat:no-repeat;
+	}
+
+}
+
+@media screen and (max-width: 767px) and (min-width:400px) {
+
+	#MainHeader {
+		width: 100%;
+		height: auto;
+		position: fixed;
+		z-index: 2;
+	}
+
+	#MainHeader a.MainLogo {
+		margin-left: 50%;
+		margin-bottom: 0;
+		transform: translateX(-50%);
+		display: none;
+	}
+
+	ul#MainMenuLinks {
+		text-align: center;
+		display: none;
+	}
+
+	ul#LoginLinks {
+		float: none;
+		margin-left: 70px;
+	}
+
+	#MainHeader li {
+		margin-left: 15px;
+		margin: -20px 0 0 15px;
+	}
+	
+	#wrapperBgVideo {
+		display:none;
+	}
+	
+	#wrapperBgImg {
+		display:block;
+	}
+
+	.Wrapper960px {
+		width: 100%;
+	}
+
+	div#SectionExplications {
+		padding: 10px;
+	}
+
+	#TexteEvenementPro {
+		width: 48%;
+		line-height: 16px;
+	}
+
+	#hamburger {
+		display: block;
+		z-index: 99;
+	}
+
+	.DescriptionEvenementPro {
+		font-size: 12px;
+	}
+
+	#SearchFilm {
+		width: 100%;
+	}
+
+	#InputSearch {
+		width: 70%;
+	}
+
+	h1 {
+		font-size: 20px;
+	}
+
+	#TextDansVideo {
+		margin-top:0px;
+	  margin-bottom:0px;
+		text-align:center;
+		color:#ffffff;
+		text-align:center;
+	}
+
+	.BlocVideo {
+		/*height:auto;*/
+		position:relative;
+		overflow: hidden;
+	}
+
+	div#SectionExplications {
+		height: auto;
+	}
+
+	div#SectionExplications ul {
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	div#SectionExplications ul li {
+		display:block;
+		width:90%;
+		vertical-align:top;
+		text-align:center;
+		margin: 0 auto;
+	}
+
+	div#SectionExplications ul li span.NumExplication {
+		display:inline-block;
+		width:100px;
+		height:100px;
+		line-height:100px;
+		box-sizing:border-box;
+		font-size:50px;
+		border-radius:100px;
+		border:2px solid #000;
+		margin-bottom:10px;
+		font-weight:300;
+	}
+
+	div#SectionExplications ul li p {
+		color:#696969;
+		font-size:14px;
+		text-align:center;
+		line-height:19px;
+	}
+
+	.hide {
+		display: none;
+	}
+
+	.filmSeanceWrapper {
+		width:40%;
+		margin:0 2%;
+		text-align:center;
+		float:left;
+		margin: 0 5%;
+	}
+
+	#SectionPlusDemandes {
+		height: 1200px;
+	}
+
+	#SectionEvenementPro {
+		width: 100%;
+		height: auto;
+	}
+
+	#PhotoEvenementPro {
+		width: 50%;
+	}
+
+	#PhotoEvenementPro img {
+		width: 100%;
+		height: 100%;
+	}
+
+	#TexteEvenementPro {
+		width: 50%;
+		height: 150px;
+		line-height: 15px;
+		overflow-y: scroll;
+	}
+
+	footer {
+		width: 100%;
+	}
+
+	#ReseauxSociaux {
+		width: 165px;
+	}
+
+	#Footer .BlocFooter {
+		float: none;
+		margin: 0 auto;
+	}
+
+	#Footer .BlocFooter p {
+		text-align:center;
+	}
+
+	#Footer .LastBlocFooter p {
+		text-align: center;
+	}
+
+}
